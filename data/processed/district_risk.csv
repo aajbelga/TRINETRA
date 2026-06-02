@@ -1,48 +1,48 @@
-city,incident_count,nkill,rolling_incidents,risk_score,threat_level,intel_brief
-Srinagar,549,721.0,3.3212851405622486,491.4642570281124,CRITICAL,Srinagar is classified as CRITICAL threat level with a risk score of 491.46.
-Jammu,51,249.0,1.186046511627907,100.43720930232558,CRITICAL,Jammu is classified as CRITICAL threat level with a risk score of 100.44.
-Unknown,72,147.0,2.5222222222222226,80.60444444444444,CRITICAL,Unknown is classified as CRITICAL threat level with a risk score of 80.6.
-Anantnag,50,94.0,1.2982456140350875,53.45964912280702,CRITICAL,Anantnag is classified as CRITICAL threat level with a risk score of 53.46.
-Sopore,35,77.0,1.2738095238095237,40.8547619047619,CRITICAL,Sopore is classified as CRITICAL threat level with a risk score of 40.85.
-Pulwama,22,67.0,1.2222222222222223,31.34444444444444,HIGH,Pulwama is classified as HIGH threat level with a risk score of 31.34.
-Baramulla,23,47.0,1.2222222222222223,25.844444444444445,HIGH,Baramulla is classified as HIGH threat level with a risk score of 25.84.
-Udhampur district,9,64.0,1.0,23.9,HIGH,Udhampur district is classified as HIGH threat level with a risk score of 23.9.
-Pahalgam,14,50.0,1.5555555555555556,22.31111111111111,HIGH,Pahalgam is classified as HIGH threat level with a risk score of 22.31.
-Doda,16,42.0,1.1428571428571428,20.82857142857143,HIGH,Doda is classified as HIGH threat level with a risk score of 20.83.
-Kupwara,16,42.0,1.0666666666666667,20.813333333333336,HIGH,Kupwara is classified as HIGH threat level with a risk score of 20.81.
-Poonch,10,41.0,1.8666666666666665,17.673333333333332,HIGH,Poonch is classified as HIGH threat level with a risk score of 17.67.
-Doda district,16,27.0,1.3333333333333333,16.366666666666667,ELEVATED,Doda district is classified as ELEVATED threat level with a risk score of 16.37.
-Rajouri,18,23.0,1.2,16.139999999999997,ELEVATED,Rajouri is classified as ELEVATED threat level with a risk score of 16.14.
-Shopian,14,22.0,1.0769230769230769,13.815384615384614,ELEVATED,Shopian is classified as ELEVATED threat level with a risk score of 13.82.
-Kulgam,11,23.0,1.1851851851851851,12.637037037037036,ELEVATED,Kulgam is classified as ELEVATED threat level with a risk score of 12.64.
-Bandipora,11,15.0,1.0,10.2,ELEVATED,Bandipora is classified as ELEVATED threat level with a risk score of 10.2.
-Anantnag district,6,23.0,1.0,10.099999999999998,ELEVATED,Anantnag district is classified as ELEVATED threat level with a risk score of 10.1.
-Udhampur,4,25.0,1.0,9.7,ELEVATED,Udhampur is classified as ELEVATED threat level with a risk score of 9.7.
-Baramulla district,6,14.0,1.2,7.44,ELEVATED,Baramulla district is classified as ELEVATED threat level with a risk score of 7.44.
-Handwara,5,15.0,1.0,7.2,ELEVATED,Handwara is classified as ELEVATED threat level with a risk score of 7.2.
-Bijbehara,10,6.0,1.0,7.0,ELEVATED,Bijbehara is classified as ELEVATED threat level with a risk score of 7.0.
-Banihal,4,15.0,1.0,6.7,ELEVATED,Banihal is classified as ELEVATED threat level with a risk score of 6.7.
-Jammu district,1,16.0,2.333333333333333,5.766666666666667,ELEVATED,Jammu district is classified as ELEVATED threat level with a risk score of 5.77.
-Awantipora,6,6.0,1.2,5.04,LOW,Awantipora is classified as LOW threat level with a risk score of 5.04.
-Kangan,4,9.0,1.0,4.8999999999999995,LOW,Kangan is classified as LOW threat level with a risk score of 4.9.
-Pattan,5,6.0,1.0,4.5,LOW,Pattan is classified as LOW threat level with a risk score of 4.5.
-Kishtwar,5,5.0,1.25,4.25,LOW,Kishtwar is classified as LOW threat level with a risk score of 4.25.
-Sumbal,3,8.0,1.0,4.1,LOW,Sumbal is classified as LOW threat level with a risk score of 4.1.
-Magam,2,9.0,1.0,3.9,LOW,Magam is classified as LOW threat level with a risk score of 3.9.
-Qazigund,3,7.0,1.0,3.8000000000000003,LOW,Qazigund is classified as LOW threat level with a risk score of 3.8.
-Budgam,3,6.0,1.0,3.5,LOW,Budgam is classified as LOW threat level with a risk score of 3.5.
-Surankot,3,6.0,1.0,3.5,LOW,Surankot is classified as LOW threat level with a risk score of 3.5.
-Pulwama district,4,4.0,1.0,3.4000000000000004,LOW,Pulwama district is classified as LOW threat level with a risk score of 3.4.
-Kupwara District,3,5.0,1.0,3.2,LOW,Kupwara District is classified as LOW threat level with a risk score of 3.2.
-Rajouri district,2,6.0,1.0,3.0,LOW,Rajouri district is classified as LOW threat level with a risk score of 3.0.
-Budgam District,2,6.0,1.0,3.0,LOW,Budgam District is classified as LOW threat level with a risk score of 3.0.
-Doda District,1,7.0,1.0,2.8000000000000003,LOW,Doda District is classified as LOW threat level with a risk score of 2.8.
-Thanamandi,2,3.0,1.3333333333333333,2.1666666666666665,LOW,Thanamandi is classified as LOW threat level with a risk score of 2.17.
-Tral,2,2.0,1.0,1.8,LOW,Tral is classified as LOW threat level with a risk score of 1.8.
-Bhaderwah,2,2.0,1.0,1.8,LOW,Bhaderwah is classified as LOW threat level with a risk score of 1.8.
-Kupwara district,1,3.0,1.0,1.5999999999999999,LOW,Kupwara district is classified as LOW threat level with a risk score of 1.6.
-Poonch district,1,2.0,1.0,1.3,LOW,Poonch district is classified as LOW threat level with a risk score of 1.3.
-Pampore,2,0.0,1.0,1.2,LOW,Pampore is classified as LOW threat level with a risk score of 1.2.
-Baramulla District,1,1.0,1.3333333333333333,1.0666666666666667,LOW,Baramulla District is classified as LOW threat level with a risk score of 1.07.
-Ganderbal,1,0.0,1.0,0.7,LOW,Ganderbal is classified as LOW threat level with a risk score of 0.7.
-Yaripora,1,0.0,1.0,0.7,LOW,Yaripora is classified as LOW threat level with a risk score of 0.7.
+city,incident_count,nkill,rolling_incidents,risk_score,threat_index,future_outlook_2028
+Srinagar,549,721.0,3.321285140562249,491.4642570281124,100.0,CRITICAL
+Jammu,51,249.0,1.186046511627907,100.43720930232558,20.436320213736405,LOW
+Unknown,72,147.0,2.5222222222222226,80.60444444444444,16.400876216687667,LOW
+Anantnag,50,94.0,1.2982456140350875,53.45964912280702,10.877627082400227,LOW
+Sopore,35,77.0,1.2738095238095235,40.8547619047619,8.3128653448393,LOW
+Pulwama,22,67.0,1.2222222222222223,31.34444444444444,6.377766845952237,LOW
+Baramulla,23,47.0,1.2222222222222223,25.844444444444445,5.258662064404433,LOW
+Udhampur district,9,64.0,1.0,23.9,4.8630189598168245,LOW
+Pahalgam,14,50.0,1.5555555555555556,22.31111111111111,4.539722022925237,LOW
+Doda,16,42.0,1.1428571428571428,20.82857142857143,4.23806434154987,LOW
+Kupwara,16,42.0,1.0666666666666669,20.813333333333336,4.234963791505755,LOW
+Poonch,10,41.0,1.8666666666666665,17.673333333333332,3.59605669804028,LOW
+Doda district,16,27.0,1.3333333333333333,16.366666666666667,3.3301845317574075,LOW
+Rajouri,18,23.0,1.2,16.139999999999997,3.2840638498511945,LOW
+Shopian,14,22.0,1.0769230769230769,13.815384615384614,2.8110659967270735,LOW
+Kulgam,11,23.0,1.1851851851851851,12.637037037037036,2.5713033768627005,LOW
+Bandipora,11,15.0,1.0,10.2,2.0754306857795655,LOW
+Anantnag district,6,23.0,1.0,10.099999999999998,2.0550833261150596,LOW
+Udhampur,4,25.0,1.0,9.7,1.9736938874570378,LOW
+Baramulla district,6,14.0,1.2,7.44,1.5138435590392125,LOW
+Handwara,5,15.0,1.0,7.2,1.4650098958443993,LOW
+Bijbehara,10,6.0,1.0,7.0,1.4243151765153883,LOW
+Banihal,4,15.0,1.0,6.7,1.3632730975218716,LOW
+Jammu district,1,16.0,2.333333333333333,5.766666666666667,1.1733644073198197,LOW
+Awantipora,6,6.0,1.2,5.04,1.0255069270910795,LOW
+Kangan,4,9.0,1.0,4.9,0.9970206235607718,LOW
+Pattan,5,6.0,1.0,4.5,0.9156311849027494,LOW
+Kishtwar,5,5.0,1.25,4.25,0.8647627857414856,LOW
+Sumbal,3,8.0,1.0,4.1,0.8342417462447272,LOW
+Magam,2,9.0,1.0,3.9,0.7935470269157162,LOW
+Qazigund,3,7.0,1.0,3.8,0.7731996672512107,LOW
+Budgam,3,6.0,1.0,3.5,0.7121575882576942,LOW
+Surankot,3,6.0,1.0,3.5,0.7121575882576942,LOW
+Pulwama district,4,4.0,1.0,3.4000000000000004,0.6918102285931885,LOW
+Kupwara District,3,5.0,1.0,3.2,0.6511155092641775,LOW
+Rajouri district,2,6.0,1.0,3.0,0.6104207899351664,LOW
+Budgam District,2,6.0,1.0,3.0,0.6104207899351664,LOW
+Doda District,1,7.0,1.0,2.8000000000000003,0.5697260706061553,LOW
+Thanamandi,2,3.0,1.3333333333333333,2.1666666666666665,0.44085945939762006,LOW
+Tral,2,2.0,1.0,1.8,0.36625247396109983,LOW
+Bhaderwah,2,2.0,1.0,1.8,0.36625247396109983,LOW
+Kupwara district,1,3.0,1.0,1.6,0.32555775463208875,LOW
+Poonch district,1,2.0,1.0,1.3,0.2645156756385721,LOW
+Pampore,2,0.0,1.0,1.2,0.24416831597406652,LOW
+Baramulla District,1,1.0,1.3333333333333333,1.0666666666666669,0.2170385030880592,LOW
+Ganderbal,1,0.0,1.0,0.7,0.1424315176515388,LOW
+Yaripora,1,0.0,1.0,0.7,0.1424315176515388,LOW
