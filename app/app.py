@@ -147,3 +147,32 @@ top_cities.plot(
 )
 
 st.pyplot(fig2)
+import pandas as pd
+import streamlit as st
+
+st.header("🛡️ Threat Intelligence Center")
+
+district_risk = pd.read_csv(
+    r"D:\GeoShield-Kashmir\data\processed\district_risk.csv"
+)
+
+st.subheader("Top 10 High Risk Districts")
+
+st.dataframe(
+    district_risk.sort_values(
+        'threat_index',
+        ascending=False
+    ).head(10)
+)
+st.subheader("🔍 District Intelligence Search")
+
+district = st.selectbox(
+    "Select District",
+    district_risk['city'].unique()
+)
+
+selected = district_risk[
+    district_risk['city'] == district
+]
+
+st.write(selected)
