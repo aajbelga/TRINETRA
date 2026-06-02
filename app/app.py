@@ -197,7 +197,24 @@ selected = district_risk[
     district_risk['city'] == district
 ]
 
-st.write(selected)
+if not selected.empty:
+
+    row = selected.iloc[0]
+
+    st.success(
+        f"""
+District: {row['city']}
+
+Threat Index: {round(row['threat_index'],2)}
+
+Threat Level: {row['threat_level']}
+
+Future Outlook 2028: {row['future_outlook_2028']}
+"""
+    )
+
+    if 'intel_report' in selected.columns:
+        st.text(row['intel_report'])
 
 # ==========================================
 # THREAT ANALYTICS
