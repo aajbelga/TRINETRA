@@ -52,6 +52,9 @@ jk_df = jk_df[
 jk_df = jk_df.dropna(
     subset=['latitude', 'longitude']
 )
+district_risk = pd.read_csv(
+    r"D:\GeoShield-Kashmir\data\processed\district_risk.csv"
+)
 
 # -----------------------------
 # SIDEBAR
@@ -70,6 +73,7 @@ filtered_df = jk_df[
     jk_df['iyear'] == selected_year
 ]
 
+# -----------------------------
 # -----------------------------
 # KPI SECTION
 # -----------------------------
@@ -91,6 +95,28 @@ col3.metric(
     filtered_df['city'].nunique()
 )
 
+critical = len(
+    district_risk[district_risk['threat_level']=="CRITICAL"]
+)
+
+high = len(
+    district_risk[district_risk['threat_level']=="HIGH"]
+)
+
+elevated = len(
+    district_risk[district_risk['threat_level']=="ELEVATED"]
+)
+
+low = len(
+    district_risk[district_risk['threat_level']=="LOW"]
+)
+
+c1, c2, c3, c4 = st.columns(4)
+
+c1.metric("🔴 Critical", critical)
+c2.metric("🟠 High", high)
+c3.metric("🟡 Elevated", elevated)
+c4.metric("🟢 Low", low)
 # -----------------------------
 # HEATMAP
 # -----------------------------
@@ -152,10 +178,6 @@ import streamlit as st
 
 st.header("🛡️ Threat Intelligence Center")
 
-district_risk = pd.read_csv(
-    r"D:\GeoShield-Kashmir\data\processed\district_risk.csv"
-)
-
 st.subheader("Top 10 High Risk Districts")
 
 st.dataframe(
@@ -176,3 +198,60 @@ selected = district_risk[
 ]
 
 st.write(selected)
+
+# ==========================================
+# THREAT ANALYTICS
+# ==========================================
+
+import plotly.express as px
+
+st.subheader("📊 Threat Level Distribution")
+
+fig = px.pie(
+    district_risk,
+    names="threat_level",
+    title="Threat Level Distribution Across Districts"
+)
+
+st.plotly_chart(
+    fig,
+    use_container_width=True
+)
+
+# ==========================================
+# EXECUTIVE SUMMARY
+# ==========================================
+
+highest_risk = district_risk.sort_values(
+    "threat_index",
+    ascending=False
+).iloc[0]["city"]
+
+st.subheader("🛡️ Executive Intelligence Summary")
+
+st.info(
+    f"""
+Highest Risk District: {highest_risk}
+
+Total Districts Analysed: {len(district_risk)}
+
+Critical Districts: {critical}
+
+High Risk Districts: {high}
+
+Elevated Districts: {elevated}
+
+Low Risk Districts: {low}
+"""
+)
+
+# ==========================================
+# DOWNLOAD REPORT
+# ==========================================
+
+st.download_button(
+    label="📥 Download Intelligence Report",
+    data=district_risk.to_csv(index=False),
+    file_name="trinetra_intelligence_report.csv",
+    mime="text/csv"
+)
