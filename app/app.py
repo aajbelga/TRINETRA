@@ -216,6 +216,40 @@ Future Outlook 2028: {row['future_outlook_2028']}
     if 'intel_report' in selected.columns:
         st.text(row['intel_report'])
 
+st.subheader("🚨 Threat Level Overview")
+
+critical_df = district_risk[
+    district_risk['threat_level'] == "CRITICAL"
+]
+
+high_df = district_risk[
+    district_risk['threat_level'] == "HIGH"
+]
+
+elevated_df = district_risk[
+    district_risk['threat_level'] == "ELEVATED"
+]
+
+low_df = district_risk[
+    district_risk['threat_level'] == "LOW"
+]
+
+st.error(
+    f"🔴 Critical Districts: {', '.join(critical_df['city'].tolist())}"
+)
+
+st.warning(
+    f"🟠 High Risk Districts: {', '.join(high_df['city'].tolist())}"
+)
+
+st.info(
+    f"🟡 Elevated Districts: {', '.join(elevated_df['city'].tolist())}"
+)
+
+st.success(
+    f"🟢 Low Risk Districts: {', '.join(low_df['city'].tolist())}"
+)
+
 # ==========================================
 # THREAT ANALYTICS
 # ==========================================
