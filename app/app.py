@@ -268,6 +268,20 @@ st.plotly_chart(
     fig,
     use_container_width=True
 )
+st.subheader("🎯 Hideout Probability Assessment")
+
+st.dataframe(
+    district_risk[
+        [
+            'city',
+            'hideout_probability',
+            'hideout_risk'
+        ]
+    ].sort_values(
+        'hideout_probability',
+        ascending=False
+    )
+)
 
 # ==========================================
 # EXECUTIVE SUMMARY
@@ -294,6 +308,20 @@ Elevated Districts: {elevated}
 
 Low Risk Districts: {low}
 """
+)
+st.subheader("🎯 Hideout Probability Assessment")
+
+st.dataframe(
+    district_risk[
+        [
+            'city',
+            'hideout_probability',
+            'hideout_risk'
+        ]
+    ].sort_values(
+        'hideout_probability',
+        ascending=False
+    )
 )
 
 # ==========================================
